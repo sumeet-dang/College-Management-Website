@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image1.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image2.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image3.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image4.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image5.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image6.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image7.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image8.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Rotator-Image9.jpg</ImageUrl>
+  </Ad>
+
+</Advertisements>

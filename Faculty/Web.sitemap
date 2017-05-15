@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Faculty" title="Faculty Home"  description="Faculty Home">
+        <siteMapNode url="~/Faculty/Default.aspx" title="Faculty Home"  description="Faculty Home" />
+        <siteMapNode url="~/Faculty/Profile.aspx" title="My Profile"  description="This Is Your Profile" />
+		<siteMapNode url="" title="Update Records" description="Existing Records">
+			<siteMapNode url="~/Faculty/StudentDetails.aspx" title="View Student Records" description="Existing Records"></siteMapNode>
+      <siteMapNode url="~/Faculty/Notification.aspx" title="Update Notifications" description="Go to Notifications"></siteMapNode>
+      <siteMapNode url="~/Faculty/UploadPapers.aspx" title="Upload Papers" description="Upload Papers Or Assignments"></siteMapNode>
+		</siteMapNode>
+      <siteMapNode title="Update Exams" description="Update Papers Related Information">
+        <siteMapNode url="~/Faculty/CreateExamSession.aspx" title="Create Exams" description="Start An Exam Session"></siteMapNode>
+		<siteMapNode  title="Update Test Questions" description="Update Questions">
+      <siteMapNode url="~/Faculty/ViewExamPapers.aspx" description="Update Aptitude Questions" title="Aptitude Paper"></siteMapNode>
+      <siteMapNode url="~/Faculty/ExamQuestions/VerbalPaper.aspx" description="Update Verbal Ability Questions" title="Verbal Ability Paper"></siteMapNode>
+      <siteMapNode url="~/Faculty/ExamQuestions/QuantitativePaper.aspx" description="Update Quantitative Ability Questions" title="Quantitative Ability Paper"></siteMapNode>
+      <siteMapNode url="~/Faculty/ExamQuestions/ProgrammingPaper.aspx" description="Update Programming Questions" title="Programming Paper"></siteMapNode>
+    </siteMapNode>
+        </siteMapNode>
+		<siteMapNode url="~/Logout.aspx" title="Logout" description="Logout"></siteMapNode>
+    </siteMapNode>
+</siteMap>

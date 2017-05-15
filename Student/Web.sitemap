@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Student" title="Student Home"  description="Student Home">
+        <siteMapNode url="~/Student/Default.aspx" title="Student Home"  description="Visit Student Homepage" />
+      <siteMapNode url="~/Student/MyProfile.aspx" title="My Profile" description="View Your Profile" />
+        <siteMapNode url="~/Student/ChatBox.aspx" title="ChatBox"  description="Go To Chat Section" />
+      <siteMapNode title="Academics" description="Academic section">
+        <siteMapNode url="~/Student/Attendance.aspx?Month=July" title="View Attendance" description="View Your Attendance"></siteMapNode>
+        <siteMapNode url="~/Student/Exams/Exams.aspx" title="Attemp An Exam" description="Take An Exam"></siteMapNode>
+        <siteMapNode url="~/Student/Results.aspx" title="Results" description="View Your Resullts" />
+      </siteMapNode>
+        <siteMapNode url="~/Student/SamplePapers.aspx" title="Sample Papers" description="View Sample Papers">
+          
+        </siteMapNode>
+        <siteMapNode url="~/LogOut.aspx" title="Logout" description="Logout Your Session" />
+      </siteMapNode>
+    
+</siteMap>

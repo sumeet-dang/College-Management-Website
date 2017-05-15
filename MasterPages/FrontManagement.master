@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FrontManagement.master.cs" Inherits="MasterPages_FrontManagement" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Styles/Maincss.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+      <!-- YUI CSS -->
+	<link rel="stylesheet" type="text/css" href="../YUI/build/container/assets/container.css"/>
+	<link rel="stylesheet" type="text/css" href="../YUI/build/menu/assets/skins/sam/menu.css"/>
+
+	<!-- YUI Dependencies -->
+	
+	<script type="text/javascript" src="../YUI/build/utilities/utilities.js" ></script> 
+	<script type="text/javascript" src="../YUI/build/container/container-min.js"></script>
+    <script type="text/javascript" src="../Scripts/Script1.js"></script>
+    
+   
+</head>
+<body>
+    <form id="form1" runat="server" autocomplete="off">
+
+        
+    <div id="FrontContainer">
+        
+        <table id="Table1" style="width:auto" runat="server">
+            <tr>
+                <td colspan="4">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Main logo.png" /></td>
+               
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:Menu ID="Menu1" runat="server" CssClass="ManagementMenu" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+                       
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" SiteMapProvider="ManagementSiteMap" />
+                </td>
+            </tr>
+            <tr style="height:400px">
+                <td colspan="3" style="width:70%;max-width:690px">
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td style="width:30%">&nbsp;</td>
+                    </tr>
+            <tr>
+                <td colspan="2">
+                    
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align:center;font-size:small">
+                  © 2013 United Group of Institutions<br />Website Created By Sumeet Dang</td>
+            </tr>
+        </table>
+      
+    </div>
+    </form>
+</body>
+</html>

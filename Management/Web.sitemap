@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Management"  description="Management">
+      <siteMapNode url="~/Management/Default.aspx" title="Management Home" description="Login As Management"></siteMapNode>
+      <siteMapNode url="~/Management/Announcements.aspx" title="Announcements" description="View Or Update Announcements"></siteMapNode>
+      <siteMapNode url="" title="Manage Accounts" description="Manage Student Or Faculty Accounts">
+        <siteMapNode url="~/Management/Student.aspx" title="Student Info" description="Manage Student Information"></siteMapNode>
+        <siteMapNode url="~/Management/Faculty.aspx" title="Faculty Info" description="Manage Faculty Information"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/LogOut.aspx" title="Log Out" description="Log Out From Your Session"></siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="collegeModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="collegeModel1StoreContainer">
+          <EntitySet Name="Faculty" EntityType="collegeModel1.Store.Faculty" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Student" EntityType="collegeModel1.Store.Student" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Faculty">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="FacultyId" Type="varchar" MaxLength="8" StoreGeneratedPattern="Computed" />
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" MaxLength="30" />
+          <Property Name="Middle_Name" Type="varchar" MaxLength="30" />
+          <Property Name="Last_Name" Type="varchar" MaxLength="30" />
+          <Property Name="ContactNumber" Type="bigint" />
+          <Property Name="Image" Type="varbinary(max)" />
+          <Property Name="Address" Type="varchar" MaxLength="100" />
+          <Property Name="SecurityQuestion" Type="varchar" MaxLength="100" />
+          <Property Name="SecurityAnswer" Type="varchar" MaxLength="30" />
+          <Property Name="Password" Type="varchar" MaxLength="30" />
+          <Property Name="Department" Type="varchar" MaxLength="30" />
+          <Property Name="EmailId" Type="varchar" MaxLength="30" />
+          <Property Name="sex" Type="varchar" MaxLength="6" />
+          <Property Name="EnrolledDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Enroll_No" />
+          </Key>
+          <Property Name="Enroll_No" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="First_Name" Type="char" MaxLength="20" />
+          <Property Name="Middle_Name" Type="char" MaxLength="20" />
+          <Property Name="Last_Name" Type="char" MaxLength="20" />
+          <Property Name="University_Roll_no" Type="bigint" />
+          <Property Name="Branch" Type="char" MaxLength="30" />
+          <Property Name="Admission_Date" Type="date" />
+          <Property Name="StudentAddress" Type="varchar" MaxLength="50" />
+          <Property Name="Email_Id" Type="varchar" MaxLength="50" />
+          <Property Name="ContactNumber" Type="bigint" />
+          <Property Name="GuardianContact" Type="bigint" />
+          <Property Name="living_Status" Type="char" MaxLength="30" />
+          <Property Name="Password" Type="varchar" MaxLength="40" />
+          <Property Name="Year" Type="int" />
+          <Property Name="SecurityQuestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="SecurityAnswer" Type="nchar" MaxLength="20" />
+          <Property Name="Image" Type="varbinary(max)" />
+          <Property Name="Sex" Type="char" MaxLength="6" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="collegeModel1" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CollegeString" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Faculties" EntityType="collegeModel1.Faculty" />
+          <EntitySet Name="Students" EntityType="collegeModel1.Student" />
+        </EntityContainer>
+        <EntityType Name="Faculty">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="FacultyId" Type="String" MaxLength="8" Unicode="false" FixedLength="false" p1:StoreGeneratedPattern="Computed" />
+          <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Middle_Name" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Last_Name" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="ContactNumber" Type="Int64" />
+          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="SecurityQuestion" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="SecurityAnswer" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="Department" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="EmailId" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="sex" Type="String" MaxLength="6" Unicode="false" FixedLength="false" />
+          <Property Name="EnrolledDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Enroll_No" />
+          </Key>
+          <Property Name="Enroll_No" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="First_Name" Type="String" MaxLength="20" Unicode="false" FixedLength="true" />
+          <Property Name="Middle_Name" Type="String" MaxLength="20" Unicode="false" FixedLength="true" />
+          <Property Name="Last_Name" Type="String" MaxLength="20" Unicode="false" FixedLength="true" />
+          <Property Name="University_Roll_no" Type="Int64" />
+          <Property Name="Branch" Type="String" MaxLength="30" Unicode="false" FixedLength="true" />
+          <Property Name="Admission_Date" Type="DateTime" Precision="0" />
+          <Property Name="StudentAddress" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Email_Id" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="ContactNumber" Type="Int64" />
+          <Property Name="GuardianContact" Type="Int64" />
+          <Property Name="living_Status" Type="String" MaxLength="30" Unicode="false" FixedLength="true" />
+          <Property Name="Password" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+          <Property Name="Year" Type="Int32" />
+          <Property Name="SecurityQuestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SecurityAnswer" Type="String" MaxLength="20" Unicode="true" FixedLength="true" />
+          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Sex" Type="String" MaxLength="6" Unicode="false" FixedLength="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="collegeModel1StoreContainer" CdmEntityContainer="CollegeString">
+          <EntitySetMapping Name="Faculties">
+            <EntityTypeMapping TypeName="collegeModel1.Faculty">
+              <MappingFragment StoreEntitySet="Faculty">
+                <ScalarProperty Name="FacultyId" ColumnName="FacultyId" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="Middle_Name" ColumnName="Middle_Name" />
+                <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="SecurityQuestion" ColumnName="SecurityQuestion" />
+                <ScalarProperty Name="SecurityAnswer" ColumnName="SecurityAnswer" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="sex" ColumnName="sex" />
+                <ScalarProperty Name="EnrolledDate" ColumnName="EnrolledDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="collegeModel1.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="Enroll_No" ColumnName="Enroll_No" />
+                <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+                <ScalarProperty Name="Middle_Name" ColumnName="Middle_Name" />
+                <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+                <ScalarProperty Name="University_Roll_no" ColumnName="University_Roll_no" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Admission_Date" ColumnName="Admission_Date" />
+                <ScalarProperty Name="StudentAddress" ColumnName="StudentAddress" />
+                <ScalarProperty Name="Email_Id" ColumnName="Email_Id" />
+                <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+                <ScalarProperty Name="GuardianContact" ColumnName="GuardianContact" />
+                <ScalarProperty Name="living_Status" ColumnName="living_Status" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="SecurityQuestion" ColumnName="SecurityQuestion" />
+                <ScalarProperty Name="SecurityAnswer" ColumnName="SecurityAnswer" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Default" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,150 @@
+﻿body
+{
+}
+.MainMenu
+{
+    border:1px solid #1e1818;
+    width:876px;
+    height:20px;
+    background-color:#808080
+}
+.MainMenu ul li
+{
+        width:150px;
+        padding-left:25px;
+        background:url(menu_bg.gif) repeat-x;
+}
+ .MainMenu ul li a:hover
+{
+    background-image: none;
+    font-weight:bold;
+}
+    .MainMenu ul li a
+    {
+        color:#1e1818;
+    }
+.StudentMenu
+{
+    border:1px solid #1e619b;
+    width:876px;
+    height:20px;
+    background-color:#808080;
+}
+    .StudentMenu ul li
+    {
+        width:136px;
+        padding-left:10px;
+        background:url(menu_bg.gif) repeat-x;
+    }
+        .StudentMenu ul li a:hover
+        {
+            font-weight:bold;
+        }
+        .StudentMenu ul li a
+        {
+            color:#1e1818;
+        }
+.ManagementMenu
+{
+    border:1px solid #1e619b;
+    width:876px;
+    height:20px;
+    background-color:#808080;
+}
+    .ManagementMenu ul li
+    {
+        width:180px;
+        padding-left:38px;
+        background:url(menu_bg.gif) repeat-x;
+    }
+        .ManagementMenu ul li a:hover
+        {
+            font-weight:bold;
+        }
+        .ManagementMenu ul li a
+        {
+            color:#1e1818;
+        }
+.FacultyMenu
+{
+    border:1px solid #1e619b;
+    width:876px;
+    height:20px;
+    background-color:#1e619b;
+}
+    .FacultyMenu ul li 
+    {
+        width:155px;
+        padding-left:20px;
+        background:url(menu_bg.gif) repeat-x;
+    }
+#FrontContainer
+{
+    border:2px solid #808080;
+    width:1000px;
+    text-align:left;
+    margin:0 auto;
+}
+span
+{
+    color: rgb(0, 0, 0);
+    font-family: Tahoma, Arial, Geneva, sans-serif; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: normal; 
+    letter-spacing: normal;
+    line-height: 22px;
+    orphans:initial; 
+    text-align:left;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal; 
+    widows:initial;
+    word-spacing: 0px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    float: none;
+}
+a:visited
+{
+    color:#191717;
+    text-decoration:none;
+}
+a
+{
+    color:#191717;
+    text-decoration:none;
+}
+#Logintable
+{
+    table-layout:fixed;
+    width:100%;
+}
+    #LoginTable tr
+    {
+        height:30px;
+    }
+        #LoginTable tr td
+        {
+            width:33%;
+            text-align:left;
+        }
+.CenterAlign
+{
+    text-align:center;
+}
+#AttTable {
+    text-align:center;
+    table-layout:fixed;
+}
+#AttTable tr
+{
+    width:800px;
+}
+    #AttTable tr td {
+        width:150px;
+    }
+    #AttTable tr th {
+        width:150px;
+    }

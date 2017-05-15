@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FrontStudent.master.cs" Inherits="MasterPages_FrontStudent" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Styles/Maincss.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+   
+    <style type="text/css">
+        .auto-style1 {
+            height: 33px;
+        }
+        .auto-style2 {
+            height: 25px;
+        }
+    </style>
+   
+   
+</head>
+<body>
+    <form id="form1" runat="server" autocomplete="off">
+
+        
+    <div id="FrontContainer">
+        
+        <table id="Table1" style="width:auto" runat="server">
+            <tr>
+                <td colspan="4" class="auto-style1">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Main logo.png" /></td>
+               
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:Menu ID="Menu1" CssClass="StudentMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" SiteMapProvider="StudentSiteMap" ShowStartingNode="False" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <asp:Label ID="Label1" runat="server" ValidateRequestMode="Disabled" Visible="False"></asp:Label>
+                </td>
+            </tr>
+            <tr style="height:400px">
+                <td colspan="3" style="width:70%;max-width:690px">
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td style="width:30%">
+                    <asp:ListView ID="ListView1" runat="server" DataSourceID="SqlDataSource1">                  
+                         <ItemSeparatorTemplate>
+                            <br />
+                        </ItemSeparatorTemplate>
+                        <ItemTemplate>
+                            <asp:Image ID="FacultyImage" runat="server" Imageurl='<%# "~/Handlers/ShowFacultyImage.ashx?EmpId="+ Eval("FacultyId")  %>' Height="25px" Width="25px" />                             
+                                <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("FirstName").ToString() +  Eval("Middle_Name").ToString() +  Eval("Last_Name").ToString() %>' ></asp:Label>   
+                            Posted                         
+                               <br />
+                            On:&nbsp<asp:Label ID="UploadTimeLabel" runat="server" Text='<%# ((DateTime)(Eval("UploadTime"))).ToShortDateString() %>' />
+                                <br />
+                            At:&nbsp<asp:Label ID="Label1" runat="server" Text='<%# ((DateTime)(Eval("UploadTime"))).ToShortTimeString() %>' />
+                                <br />
+                                <asp:TextBox ID="MessageBox" runat="server" Text='<%# Eval("Message") %>' TextMode="MultiLine" Width="200px" Height="50px" Enabled="False" />                                
+                                <br />                      
+                        </ItemTemplate>
+                        <LayoutTemplate>
+                            <ul id="itemPlaceholderContainer" runat="server" style="">
+                                <li runat="server" id="itemPlaceholder" />
+                            </ul>
+                            <div style="">
+                            </div>
+                        </LayoutTemplate>                    
+                    </asp:ListView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:collegeConnectionString1 %>" SelectCommand="SELECT Faculty.FacultyId, Notifications.*, Faculty.FirstName, Faculty.Middle_Name, Faculty.Last_Name FROM Faculty INNER JOIN Notifications ON Faculty.FacultyId = Notifications.UploaderId"></asp:SqlDataSource>
+             
+                </td>
+                    </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="Results.aspx">View Exam Results</a> | 
+                    <a href="Attendance.aspx">View Current Attendance</a> | 
+                    <a href="SamplePapers.aspx">View Sample Papers</a>
+                </td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align:center;font-size:small" class="auto-style2">
+                  © 2013 United Group of Institutions<br />Website Created By Sumeet Dang</td>
+            </tr>
+        </table>
+      
+    </div>
+    </form>
+</body>
+    </html>

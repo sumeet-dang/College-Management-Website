@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Home"  description="H+ome">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="Go to Home Page" />
+      <siteMapNode url="" title="Students"  description="Students section">
+        <siteMapNode url="~/Student/Default.aspx" title="Student Home" description="Go To Student Home Page" />
+      </siteMapNode>
+      <siteMapNode url="" title="Faculty" description="Faculty Section">
+        <siteMapNode url="~/Faculty/Default.aspx" title="Faculty Home" description="Go To Faculty Home Page"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Management" description="Management Section">
+        <siteMapNode url="~/Management/Default.aspx" title="Management Home" description="Go to Management Homepage" />
+      </siteMapNode>
+      <siteMapNode title="About">
+        <siteMapNode url="~/History.aspx" title="History" description="Visit Our Brief History"></siteMapNode>
+        <siteMapNode url="~/Vision.aspx" title="Vision" description="Our Vision"></siteMapNode>
+        <siteMapNode url="~/ContactUs.aspx" title="Contact Us" description="Get In Touch With Us"></siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,178 @@
+[Monday Mar 18 17:54:56 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:56 2013]          Mass Effect 2 v1.03.0.271 installer ran
+[Monday Mar 18 17:54:56 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:56 2013] Parameters called with: /LANGUAGE=en
+[Monday Mar 18 17:54:56 2013] Creating C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\
+[Monday Mar 18 17:54:56 2013] Copying F:\Setup.exe to C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\Installer.exe
+[Monday Mar 18 17:54:56 2013] Installing C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\unrar.dll
+[Monday Mar 18 17:54:56 2013] Installing C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\GameuxInstallHelper.dll
+[Monday Mar 18 17:54:56 2013] Installing C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\msvcr71.dll
+[Monday Mar 18 17:54:56 2013] Removing mutexs
+[Monday Mar 18 17:54:56 2013] running 'C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\Installer.exe' '/src=F:' /LANGUAGE=en
+[Monday Mar 18 17:54:57 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:57 2013]             Mass Effect 2 quit
+[Monday Mar 18 17:54:57 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:57 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:57 2013]          Mass Effect 2 v1.03.0.271 installer ran
+[Monday Mar 18 17:54:57 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 17:54:57 2013] Parameters called with: "/src=F:" /LANGUAGE=en
+[Monday Mar 18 17:54:57 2013] Called with a source directory, going to full installer.
+[Monday Mar 18 17:54:57 2013] source dir = F:
+[Monday Mar 18 17:54:57 2013] Detected OS: Win7
+[Monday Mar 18 17:54:57 2013] Language returned: 1033
+[Monday Mar 18 17:54:57 2013] User Locale Code: 1033.
+[Monday Mar 18 17:54:57 2013] User Locale Name: English.
+[Monday Mar 18 17:54:57 2013] Language selected: 1033 - en
+[Monday Mar 18 17:54:57 2013] User admin status: Admin
+[Monday Mar 18 17:54:57 2013] Game Build: 1593.02
+[Monday Mar 18 17:54:57 2013] SKU: 
+[Monday Mar 18 17:54:57 2013] Size required by installer: 12548594
+[Monday Mar 18 17:54:57 2013] Fudged size required by installer: 12648594
+[Monday Mar 18 17:54:57 2013] Localize the C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\ExpressDialog.ini file.
+[Monday Mar 18 17:54:57 2013] Localize the C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\ShortcutsDialog.ini file.
+[Monday Mar 18 17:54:57 2013] Welcome page init (page 1)
+[Monday Mar 18 17:54:58 2013] License page init (page 2)
+[Monday Mar 18 17:55:02 2013] Running CD Key prompt
+[Monday Mar 18 17:56:11 2013] Result: 0
+[Monday Mar 18 17:56:11 2013] Express page init (page 3)
+[Monday Mar 18 17:56:11 2013] Display the express page.
+[Monday Mar 18 17:56:14 2013] State change: 0
+[Monday Mar 18 17:56:14 2013] State: success
+[Monday Mar 18 17:56:14 2013] Express var: 1
+[Monday Mar 18 17:56:15 2013] Directory select returned path: C:\Program Files (x86)\Mass Effect 2\
+[Monday Mar 18 17:56:15 2013] DirSelect page skipped
+[Monday Mar 18 17:56:15 2013] StartMenuSelect page skipped
+[Monday Mar 18 17:56:15 2013] Shortcuts page skipped
+[Monday Mar 18 17:56:15 2013] InstallFiles page init (page 7)
+[Monday Mar 18 17:56:15 2013] Extract Saferun & DLL (64 bit)
+[Monday Mar 18 17:56:15 2013] Unload the dirselect dll
+[Monday Mar 18 17:56:15 2013] Processing File 1 (exe.rar)
+[Monday Mar 18 17:56:15 2013] Looking for F:\data\exe.rar
+[Monday Mar 18 17:56:15 2013] Found at F:\data\exe.rar
+[Monday Mar 18 17:56:15 2013] Extracting F:\data\exe.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 17:56:15 2013] Extracting: /Language en /progresspercent 12 /settotalK 16021 'F:\data\exe.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 17:56:15 2013] Extract Ok, 1
+[Monday Mar 18 17:56:15 2013] Starting post process
+[Monday Mar 18 17:56:15 2013] Processing File 2 (movies.rar)
+[Monday Mar 18 17:56:15 2013] Looking for F:\data\movies.rar
+[Monday Mar 18 17:56:15 2013] Found at F:\data\movies.rar
+[Monday Mar 18 17:56:15 2013] Extracting F:\data\movies.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 17:56:15 2013] Extracting: /Language en /progresspercent 2455 /settotalK 3080851 'F:\data\movies.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:00:24 2013] Extract Ok, 1
+[Monday Mar 18 18:00:24 2013] Starting post process
+[Monday Mar 18 18:00:24 2013] Processing File 3 (english.rar)
+[Monday Mar 18 18:00:24 2013] Looking for F:\data\english.rar
+[Monday Mar 18 18:00:49 2013] Found at F:\data\english.rar
+[Monday Mar 18 18:00:49 2013] Extracting F:\data\english.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:00:49 2013] Extracting: /Language en /progresspercent 1763 /settotalK 2212781 'F:\data\english.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:05:48 2013] Extract Ok, 1
+[Monday Mar 18 18:05:48 2013] Starting post process
+[Monday Mar 18 18:05:48 2013] Processing File 4 (maps.rar)
+[Monday Mar 18 18:05:48 2013] Looking for F:\data\maps.rar
+[Monday Mar 18 18:05:48 2013] Found at F:\data\maps.rar
+[Monday Mar 18 18:05:48 2013] Extracting F:\data\maps.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:05:48 2013] Extracting: /Language en /progresspercent 500 /settotalK 627625 'F:\data\maps.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:06:26 2013] Extract Ok, 1
+[Monday Mar 18 18:06:26 2013] Starting post process
+[Monday Mar 18 18:06:26 2013] Processing File 5 (apps.rar)
+[Monday Mar 18 18:06:26 2013] Looking for F:\data\apps.rar
+[Monday Mar 18 18:06:26 2013] Found at F:\data\apps.rar
+[Monday Mar 18 18:06:26 2013] Extracting F:\data\apps.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:06:26 2013] Extracting: /Language en /progresspercent 12 /settotalK 15708 'F:\data\apps.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:06:28 2013] Extract Ok, 1
+[Monday Mar 18 18:06:28 2013] Starting post process
+[Monday Mar 18 18:06:28 2013] Processing File 6 (data01.rar)
+[Monday Mar 18 18:06:28 2013] Looking for F:\data\data01.rar
+[Monday Mar 18 18:06:28 2013] Found at F:\data\data01.rar
+[Monday Mar 18 18:06:28 2013] Extracting F:\data\data01.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:06:28 2013] Extracting: /Language en /progresspercent 709 /settotalK 889845 'F:\data\data01.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:07:57 2013] Extract Ok, 1
+[Monday Mar 18 18:07:57 2013] Starting post process
+[Monday Mar 18 18:07:57 2013] Processing File 7 (data02.rar)
+[Monday Mar 18 18:07:57 2013] Looking for F:\data\data02.rar
+[Monday Mar 18 18:07:57 2013] Found at F:\data\data02.rar
+[Monday Mar 18 18:07:57 2013] Extracting F:\data\data02.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:07:57 2013] Extracting: /Language en /progresspercent 399 /settotalK 501909 'F:\data\data02.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:08:32 2013] Extract Ok, 1
+[Monday Mar 18 18:08:32 2013] Starting post process
+[Monday Mar 18 18:08:32 2013] Processing File 8 (data03.rar)
+[Monday Mar 18 18:08:32 2013] Looking for F:\data\data03.rar
+[Monday Mar 18 18:08:32 2013] Found at F:\data\data03.rar
+[Monday Mar 18 18:08:32 2013] Extracting F:\data\data03.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:08:32 2013] Extracting: /Language en /progresspercent 153 /settotalK 193020 'F:\data\data03.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:08:44 2013] Extract Ok, 1
+[Monday Mar 18 18:08:44 2013] Starting post process
+[Monday Mar 18 18:08:44 2013] Processing File 9 (other.rar)
+[Monday Mar 18 18:08:44 2013] Looking for F:\data\other.rar
+[Monday Mar 18 18:08:44 2013] Found at F:\data\other.rar
+[Monday Mar 18 18:08:44 2013] Extracting F:\data\other.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:08:44 2013] Extracting: /Language en /progresspercent 1386 /settotalK 1739900 'F:\data\other.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:11:39 2013] Extract Ok, 1
+[Monday Mar 18 18:11:39 2013] Starting post process
+[Monday Mar 18 18:11:39 2013] Processing File 10 (dialog.rar)
+[Monday Mar 18 18:11:39 2013] Looking for F:\data\dialog.rar
+[Monday Mar 18 18:11:39 2013] Found at F:\data\dialog.rar
+[Monday Mar 18 18:11:39 2013] Extracting F:\data\dialog.rar to C:\Program Files (x86)\Mass Effect 2...
+[Monday Mar 18 18:11:39 2013] Extracting: /Language en /progresspercent 2606 /settotalK 3270934 'F:\data\dialog.rar' 'C:\Program Files (x86)\Mass Effect 2'
+[Monday Mar 18 18:16:08 2013] Extract Ok, 1
+[Monday Mar 18 18:16:08 2013] Starting post process
+[Monday Mar 18 18:16:08 2013] Setup Registry (Path, Flavor, GUID)
+[Monday Mar 18 18:16:08 2013] Ran F:\data\Mass Effect 2 Uninstaller.exe
+[Monday Mar 18 18:16:08 2013]     Result: 0
+[Monday Mar 18 18:16:08 2013] Game browser: check for old versions and remove them from the games browser
+[Monday Mar 18 18:16:08 2013] No previous games browser info.
+[Monday Mar 18 18:16:08 2013] Adding the games browser...
+[Monday Mar 18 18:16:08 2013] GUID: {B558D611-21F3-4C0D-A866-A812A5C622C0}
+[Monday Mar 18 18:16:08 2013] GDF found: C:\Program Files (x86)\Mass Effect 2\Binaries\GDFDLL.dll
+[Monday Mar 18 18:16:09 2013] GameuxInstallHelper::AddToGameExplorer(t 'C:\Program Files (x86)\Mass Effect 2\Binaries\GDFDLL.dll', t 'C:\Program Files (x86)\Mass Effect 2', i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}) 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 0, i 0, t 'Mass Effect 2', t 'C:\Program Files (x86)\Mass Effect 2\MassEffect2Launcher.exe', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 0, i 1, t 'EA Product Support Help', t 'C:\Program Files (x86)\Mass Effect 2\docs\EA Help\Electronic_Arts_Technical_Support.htm', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 0, i 2, t 'View Readme', t 'C:\Program Files (x86)\Mass Effect 2\docs\Readme_en.txt', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 1, i 0, t 'BioWare Website', t 'http://go.bioware.com/masseffect2/pc/launcher/bioware/en', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 1, i 1, t 'Support WebSite', t 'http://go.bioware.com/masseffect2/pc/launcher/support/en', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::CreateTask(i 3, g {B558D611-21F3-4C0D-A866-A812A5C622C0}, i 0, i 3, t 'Configure', t 'C:\Program Files (x86)\Mass Effect 2\Binaries\MassEffect2Config.exe', t '') 0
+[Monday Mar 18 18:16:10 2013] GameuxInstallHelper::SetupRichSavedGames(t '', t 'C:\Program Files (x86)\Mass Effect 2\MassEffect2Launcher.exe', t '') 0
+[Monday Mar 18 18:16:10 2013] Adding Firewall Exception 'Mass Effect 2 Game', path: 'C:\Program Files (x86)\Mass Effect 2\Binaries\MassEffect2.exe'.
+[Monday Mar 18 18:16:10 2013] Adding Firewall Exception 'Mass Effect 2 Launcher', path: 'C:\Program Files (x86)\Mass Effect 2\MassEffect2Launcher.exe'.
+[Monday Mar 18 18:16:10 2013] Direct X Version: 41
+[Monday Mar 18 18:16:10 2013] ExecWait  ''F:\data\DataSetup.exe' C:\Program Files (x86)\Mass Effect 2\'
+[Monday Mar 18 18:16:11 2013] ExecWait  result: 0
+[Monday Mar 18 18:16:11 2013] ExecWait  ''F:\software\VisualCRT\vcredist.msi' /passive /norestart'
+[Monday Mar 18 18:16:11 2013] ExecWait  result: 0
+[Monday Mar 18 18:16:11 2013] ExecWait  ''F:\software\PhysX_9.09.0814_SystemSoftware.exe' /q'
+[Monday Mar 18 18:16:41 2013] ExecWait  result: 0
+[Monday Mar 18 18:16:41 2013] Finish Up
+[Monday Mar 18 18:16:41 2013] Installing = true
+[Monday Mar 18 18:16:41 2013] InstallCancelled = false
+[Monday Mar 18 18:16:41 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 18:16:41 2013] |           SUCCESS SUCCESS SUCCESS SUCCESS SUCCESS SUCCESS           |
+[Monday Mar 18 18:16:41 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 18:16:41 2013] FinishTitle = Installation Complete
+[Monday Mar 18 18:16:41 2013] FinishMessage = Mass Effect 2 has been successfully installed.
+[Monday Mar 18 18:16:41 2013] FinishEXE = 
+[Monday Mar 18 18:16:41 2013] FinishEXEParams = 
+[Monday Mar 18 18:16:41 2013] FinishEXETitle = 
+[Monday Mar 18 18:16:41 2013] FinishReadme = C:\Program Files (x86)\Mass Effect 2\docs\Readme_en.txt
+[Monday Mar 18 18:16:41 2013] FinishReadmeTitle = View Readme
+[Monday Mar 18 18:16:41 2013] Skipping 1 pages
+[Monday Mar 18 18:16:41 2013]  Cur: 7
+[Monday Mar 18 18:16:41 2013]  End: 8
+[Monday Mar 18 18:16:41 2013] pre Finish page
+[Monday Mar 18 18:16:41 2013] Removing mutex
+[Monday Mar 18 18:16:55 2013] .onGUIEnd
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\SelectInstallTarget.ini
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\ShortcutsDialog.ini
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\installmanifest.ini
+[Monday Mar 18 18:16:55 2013] Unload the nsisunrar2 dll
+[Monday Mar 18 18:16:55 2013] Unload the nextfile dll
+[Monday Mar 18 18:16:55 2013] Unload the dirselect dll
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\nsvB2C0.tmp\nsisDirSelect.dll
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\msvcr71.dll
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\unrar.dll
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\GameuxInstallHelper.dll
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp\Installer.exe
+[Monday Mar 18 18:16:55 2013] Delete C:\Users\Sumit\AppData\Local\Temp\MassEffect2Temp
+[Monday Mar 18 18:16:55 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[Monday Mar 18 18:16:55 2013] |           Mass Effect 2 finished
+[Monday Mar 18 18:16:55 2013] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
